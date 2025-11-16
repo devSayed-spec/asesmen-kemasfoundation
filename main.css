@@ -45,7 +45,7 @@ header {
 }
 
 .about {
-    padding: 6rem 2rem 4rem 2rem;
+    padding: 6rem 2rem 3rem 2rem;
     background: linear-gradient(135deg, #2C231F 0%, #352923 50%, #3A2E29 100%);
 }
 
@@ -137,7 +137,7 @@ header {
 }
 
 .contact {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem 4rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,14 +152,14 @@ header {
     font-size: clamp(1rem, 1.5vw, 1.125rem);
     line-height: 1.8;
     color: #9b8d7f;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: 300;
 }
 
 .contact-section {
     text-align: center;
-    padding: 1rem 2rem;
-    margin: 1rem 0;
+    padding: 0;
+    margin: 0;
 }
 
 .contact-button {
@@ -174,6 +174,7 @@ header {
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
     letter-spacing: 0.05em;
+    display: inline-block;
 }
 
 .contact-button:hover {
@@ -235,7 +236,7 @@ header {
     }
     
     .about {
-        padding: 4rem 1.5rem 3rem 1.5rem;
+        padding: 4rem 1.5rem 2rem 1.5rem;
     }
     
     .about-content {
@@ -244,22 +245,19 @@ header {
     
     .about-image {
         order: -1;
-        max-width: 350px;
+        max-width: 100%;
         margin: 0 auto 2rem auto;
     }
     
     .about-image img {
-        max-height: 350px;
+        max-height: 400px;
+        width: 100%;
+        object-fit: contain;
         display: block;
     }
     
     .contact {
-        padding: 3rem 1.5rem;
-    }
-    
-    .contact-section {
-        padding: 1rem 1.5rem;
-        margin: 1rem 0;
+        padding: 2rem 1.5rem 3rem 1.5rem;
     }
     
     .contact-button {
@@ -298,7 +296,9 @@ header {
     }
     
     .about-image img {
-        max-height: 280px;
+        max-height: 350px;
+        width: 100%;
+        object-fit: contain;
         display: block;
     }
     
@@ -317,12 +317,7 @@ header {
     }
     
     .contact {
-        padding: 2rem 1rem;
-    }
-    
-    .contact-section {
-        padding: 1rem 1rem;
-        margin: 0.5rem 0;
+        padding: 2rem 1rem 3rem 1rem;
     }
     
     .contact-button {
