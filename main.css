@@ -61,14 +61,13 @@ header {
     letter-spacing: 0.02em;
 }
 
-/* ⭐ FIXED: Added margin auto to center content */
 .about-content {
     max-width: 1200px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 4rem;
     align-items: start;
-    margin: 0 auto; /* CENTER THE CONTENT */
+    margin: 0 auto;
 }
 
 .about-text p {
@@ -98,7 +97,7 @@ header {
     object-position: center;
     border: 1px solid #4a3d36;
     transition: all 0.3s ease;
-    display: block; /* ⭐ ENSURE IMAGE DISPLAYS */
+    display: block;
 }
 
 .about-image img:hover {
@@ -144,10 +143,9 @@ header {
     justify-content: center;
 }
 
-/* ⭐ FIXED: Center contact content */
 .contact-content {
     max-width: 900px;
-    margin: 0 auto; /* CENTER THE CONTENT */
+    margin: 0 auto;
 }
 
 .contact-intro {
@@ -223,18 +221,17 @@ header {
 }
 
 @media (max-width: 768px) {
-    /* ⭐ FIXED: Reduced header padding on mobile */
     header {
-        padding: 2.5rem 1.5rem; /* Reduced from 3rem */
+        padding: 2.5rem 1.5rem;
     }
     
     .hero-title {
         font-size: 2.5rem;
-        margin-bottom: 1rem; /* ⭐ Reduced spacing */
+        margin-bottom: 1rem;
     }
     
     .hero-subtitle {
-        margin-bottom: 1.5rem; /* ⭐ Reduced from 3rem */
+        margin-bottom: 1.5rem;
     }
     
     .about {
@@ -245,16 +242,15 @@ header {
         gap: 2rem;
     }
     
-    /* ⭐ FIXED: Image shows first on mobile */
     .about-image {
         order: -1;
-        max-width: 350px; /* ⭐ Slightly smaller on mobile */
-        margin: 0 auto 2rem auto; /* ⭐ Add bottom margin */
+        max-width: 350px;
+        margin: 0 auto 2rem auto;
     }
     
     .about-image img {
-        max-height: 350px; /* ⭐ Reduced height */
-        display: block; /* ⭐ ENSURE SHOWS */
+        max-height: 350px;
+        display: block;
     }
     
     .contact {
@@ -273,23 +269,22 @@ header {
 }
 
 @media (max-width: 480px) {
-    /* ⭐ FIXED: Even smaller header on small phones */
     header {
-        padding: 2rem 1rem; /* Further reduced */
+        padding: 2rem 1rem;
     }
     
     .hero-title {
         font-size: 2rem;
-        margin-bottom: 0.75rem; /* ⭐ Minimal spacing */
+        margin-bottom: 0.75rem;
     }
     
     .hero-subtitle {
         font-size: 0.9rem;
-        margin-bottom: 1rem; /* ⭐ Reduced from 2rem */
+        margin-bottom: 1rem;
     }
     
     .about {
-        padding: 3rem 1rem 2rem 1rem; /* ⭐ Reduced padding */
+        padding: 3rem 1rem 2rem 1rem;
     }
     
     .section-title {
@@ -297,15 +292,14 @@ header {
         margin-bottom: 2rem;
     }
     
-    /* ⭐ FIXED: Image sizing on small phones */
     .about-image {
         max-width: 100%;
         margin: 0 auto 1.5rem auto;
     }
     
     .about-image img {
-        max-height: 280px; /* ⭐ Smaller on phones */
-        display: block; /* ⭐ CRITICAL */
+        max-height: 280px;
+        display: block;
     }
     
     .skills-section h3 {
